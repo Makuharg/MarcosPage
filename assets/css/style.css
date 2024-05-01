@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-logo {
+    height: 47px;
+    width: 57px;
+    border-radius: 50px;
+}
+
+.link-logo:hover {
+    opacity: 0.7;
+}
+
+#hover-links:hover {
+        opacity: 0.8;
+        color: #af6016;
+}
+
+.portfolio {
+    text-align: center;
+    width: 80px;
+    border: 1px solid #c56a19;
+    border-radius: 11px;
+    color: #FFFF;
+    background-color: #c56a19;
+    margin-top: 4px;
+    padding: 3px 10px;
+}
+
+.portfolio:hover {
+    color: white;
+    opacity: 0.7;
+}
+
+/* header */
+
+.foto-marcos {
+    border-radius: 25%;
+}
+
+.nombre {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.desafioLatam {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.desafioLatam:hover {
+    color: #af6016;    
+}
+
+.btn {
+    background-color: #af6016;
+}
