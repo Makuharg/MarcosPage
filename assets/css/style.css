@@ -26,12 +26,13 @@ body {
 .portfolio {
     text-align: center;
     width: 80px;
-    border: 1px solid #c56a19;
+    border: 1px solid #af6016;
     border-radius: 11px;
-    color: #FFFF;
-    background-color: #c56a19;
+    color: white;
+    background-color: #af6016;
     margin-top: 4px;
     padding: 3px 10px;
+
 }
 
 .portfolio:hover {
@@ -62,4 +63,59 @@ body {
 
 .btn {
     background-color: #af6016;
+    margin-top: 20px;
+    border-radius: 9px;
 }
+
+.btn a {
+    text-decoration: none;    
+    color: white;
+    
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* main habilidades */
+
+.container-habilidades {
+    justify-content: space-evenly;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 0.7rem 1.2rem 0.7rem;
+    width: 250px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 1px solid #af6016;
+    background-color: #af6016;
+}
+
+.habilidades:hover {
+    opacity: 0.7;
+}
+
+/* section acerca de mi */
+
+.acerca-de {
+    background-color: #af6016;
+    color: #FFFF;
+    height: 100%;
+}
+
+.descripcion-de-mi {
+    align-items: center;
+
+}
+
+.acerca-de p {
+    text-align: justify;
+}
+
+
+/* footer */
+
